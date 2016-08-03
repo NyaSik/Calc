@@ -15,7 +15,6 @@ class MyCalc {
     }
 
     function SkipEmpty($r = false) {
-        $value = trim($value);
         while((empty($this->NextChar) && !is_numeric($this->NextChar))
           or (!preg_match('/[0-9,.\-+\/*()<>=]/', $this->NextChar, $v) && $r)) {
            $this->NextChar();
