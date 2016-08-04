@@ -6,7 +6,7 @@ class MyCalc {
     private $rPosMax = 0;
     private $BracketsCount = 0;
     private $NextChar = '';
-    var $Result;
+    public $Result;
 
 
     public function Math($Math) {
