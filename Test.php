@@ -1,11 +1,11 @@
 <?php
 
 class MyCalc {
-    var $AExpression = '';
-    var $rPos =0;
-    var $rPosMax = 0;
-    var $BracketsCount = 0;
-    var $NextChar = '';
+    private $AExpression = '';
+    private $rPos =0;
+    private $rPosMax = 0;
+    private $BracketsCount = 0;
+    private $NextChar = '';
     var $Result;
 
 
