@@ -83,7 +83,7 @@ class MyCalc {
             switch($this->NextChar) {
                 case "-":
                     $this->NextChar();
-                    $result = -1.0*$result;
+                    $result -= $result;
                 break;
                 case "(":
                     $this->BracketsCount ++;
